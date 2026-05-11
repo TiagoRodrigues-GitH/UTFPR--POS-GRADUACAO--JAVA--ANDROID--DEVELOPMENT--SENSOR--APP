@@ -1,10 +1,15 @@
+==============================================================================================
+
 SensorHub
 Aplicativo Android para Coleta e Monitoramento de Dados de Sensores em Campo
+==============================================================================================
+
 📋 Sobre o Projeto
 SensorHub é uma aplicação Android offline-first desenvolvida para coleta de dados de sensores em ambientes de campo sem conectividade à internet. 
 O aplicativo integra três módulos principais de captura de dados
 
 Sensores IoT: Integração com dispositivos IoT externos
+==============================================================================================
 
 🎯 Características Principais
 
@@ -25,6 +30,8 @@ SensorHub/
 ├── ui/             # Camada de apresentação (Activities, ViewModels, Adapters)
 
 └── util/           # Classes utilitárias
+==============================================================================================
+
 🛠️ Tecnologias
 
 Linguagem: Java
@@ -33,16 +40,17 @@ Arquitetura: MVVM com LiveData e ViewModels
 UI: ViewBinding, RecyclerView, Material Design
 Processamento: ExecutorService, WorkManager
 ML: Implementações puras Java
-
+==============================================================================================
 
 📱 Módulos
 1. Sensores IoT
 Gerenciamento e coleta de dados de sensores IoT
 Visualização em tempo real de leituras
-
+==============================================================================================
 
 🚀 Status do Projeto
 Em desenvolvimento ativo 
+==============================================================================================
 
 👨‍💻 Autor
 [Seu Nome]

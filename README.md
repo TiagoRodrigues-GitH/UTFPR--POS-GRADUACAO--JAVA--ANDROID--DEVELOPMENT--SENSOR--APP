@@ -1,7 +1,7 @@
 # SensorHub
 
 **Aplicativo Android para Coleta e Monitoramento de Dados de Sensores em Campo**
-
+<img width="282" height="217" alt="Captura de tela 2026-05-11 142029" src="https://github.com/user-attachments/assets/a6f5f08b-b312-4e7f-b793-2b41dee85df3" />
 ---
 
 ## 📋 Sobre o Projeto
@@ -61,10 +61,26 @@ O aplicativo integra três módulos principais de captura de dados:
 
 **🟢 Em desenvolvimento ativo**
 
-- ✅ Fases 1-4 completas (Entities, DAOs, Database, Repositories, Use Cases, Hardware Layer)
-- 🔄 Fase 5 em andamento (Navegação e ViewModels compartilhados)
+- ✅ Fases 1-5 completas (Entities, DAOs, Database, Repositories, Use Cases, Hardware Layer,Navegação e ViewModels compartilhados)
+- 🔄 Fase 6-7  Utilizar sensores IoT e receber dados em tempo real. 
 
 ---
+
+## Imagens
+
+
+<img width="381" height="685" alt="Captura de tela 2026-05-11 142010" src="https://github.com/user-attachments/assets/608e5381-8257-4109-a785-a9044a6884e9" />
+
+
+<img width="381" height="685" alt="Captura de tela 2026-05-11 140311" src="https://github.com/user-attachments/assets/0940645e-6479-4733-ba53-80a6b85b4733" />
+
+
+
+<img width="381" height="685" alt="Captura de tela 2026-05-11 141318" src="https://github.com/user-attachments/assets/23ced3ad-46a0-4433-a638-a85c1c5dad43" />
+
+
+<img width="381" height="685" alt="Captura de tela 2026-05-11 141129" src="https://github.com/user-attachments/assets/16395710-c5be-44ff-8607-d8a891210e0f" />
+
 
 ## 👨‍💻 Autor
 

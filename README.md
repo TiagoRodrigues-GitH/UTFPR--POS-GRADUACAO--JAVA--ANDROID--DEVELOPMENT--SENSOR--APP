@@ -15,10 +15,15 @@ Compatibilidade com API 24+ e dispositivos Nexus 7
 
 🏗️ Arquitetura
 SensorHub/
+
 ├── data/           # Camada de dados (Entities, DAOs, Database, Repositories)
+
 ├── domain/         # Lógica de negócio (Use Cases)
+
 ├── hardware/       # Abstração de sensores físicos
+
 ├── ui/             # Camada de apresentação (Activities, ViewModels, Adapters)
+
 └── util/           # Classes utilitárias
 🛠️ Tecnologias
 

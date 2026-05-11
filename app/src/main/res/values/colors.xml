@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores base do app -->
+    <color name="preto">#FF0D0D0D</color>
+    <color name="branco">#FFFFFFFF</color>
+    <color name="amarelo">#FFBE02</color>
+    <color name="yellow">#FFBE02</color>
+    <color name="amarelo_escuro">#B98A00</color>
+    <color name="amarelo_transparente">#26FFBE02</color>
+    <color name="cinza_claro">#F5F5F5</color>
+    <color name="cinza_escuro">#FF161616</color>
+    <color name="superficie_escura">#FF1E1E1E</color>
+    <color name="cinza_medio">#FF333333</color>
+    <color name="texto_primario_escuro">#FFF0F0F0</color>
+    <color name="azul_escuro">#3F51B5</color>
+    <color name="cinza_transparente">#C8808080</color>
+    <color name="corDeSelecao">@color/amarelo_transparente</color>
+
+    <!-- Uso da do MATERIAL 3 para tema com base nas cores base -->
+    <color name="md_theme_primary">@color/amarelo</color>
+    <color name="md_theme_onPrimary">@color/branco</color>
+    <color name="md_theme_primaryContainer">@color/amarelo_escuro</color>
+    <color name="md_theme_onPrimaryContainer">@color/branco</color>
+
+    <color name="md_theme_secondary">@color/cinza_medio</color>
+    <color name="md_theme_onSecondary">@color/branco</color>
+    <color name="md_theme_secondaryContainer">@color/cinza_claro</color>
+    <color name="md_theme_onSecondaryContainer">@color/preto</color>
+
+    <color name="md_theme_tertiary">@color/azul_escuro</color>
+    <color name="md_theme_onTertiary">@color/branco</color>
+    <color name="md_theme_tertiaryContainer">@color/cinza_escuro</color>
+    <color name="md_theme_onTertiaryContainer">@color/branco</color>
+
+    <color name="md_theme_error">#FFB400</color> <!-- example error tone -->
+    <color name="md_theme_onError">@color/branco</color>
+    <color name="md_theme_errorContainer">#601B00</color>
+    <color name="md_theme_onErrorContainer">@color/branco</color>
+
+    <color name="md_theme_background">@color/cinza_claro</color>
+    <color name="md_theme_onBackground">@color/preto</color>
+
+    <color name="md_theme_surface">@color/branco</color>
+    <color name="md_theme_onSurface">@color/preto</color>
+    <color name="md_theme_surfaceVariant">@color/cinza_claro</color>
+    <color name="md_theme_onSurfaceVariant">@color/cinza_medio</color>
+
+    <color name="md_theme_outline">@color/cinza_transparente</color>
+    <color name="md_theme_outlineVariant">@color/cinza_escuro</color>
+
+    <color name="md_theme_inverseSurface">@color/cinza_escuro</color>
+    <color name="md_theme_inverseOnSurface">@color/branco</color>
+    <color name="md_theme_inversePrimary">@color/amarelo</color>
+</resources>

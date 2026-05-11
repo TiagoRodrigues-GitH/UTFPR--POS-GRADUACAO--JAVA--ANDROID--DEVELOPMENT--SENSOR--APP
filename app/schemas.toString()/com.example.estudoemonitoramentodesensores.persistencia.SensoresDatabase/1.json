@@ -1,0 +1,58 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "89836af53ece891ce80613c4a809dfc1",
+    "entities": [
+      {
+        "tableName": "Lista de sensores",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `Nome do sensor` TEXT NOT NULL, `Id do sensor` TEXT, `Tipo do sensor` INTEGER NOT NULL, `Estado do sensor` TEXT, `Uso do sensor` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sensorName",
+            "columnName": "Nome do sensor",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sensorId",
+            "columnName": "Id do sensor",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "sensorType",
+            "columnName": "Tipo do sensor",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sensorStatus",
+            "columnName": "Estado do sensor",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "sensorUso",
+            "columnName": "Uso do sensor",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '89836af53ece891ce80613c4a809dfc1')"
+    ]
+  }
+}

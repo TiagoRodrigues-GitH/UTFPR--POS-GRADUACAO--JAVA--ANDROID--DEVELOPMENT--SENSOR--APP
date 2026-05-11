@@ -1,0 +1,122 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Estudo e Monitoramento de Sensores</string>
+    <string name="iot_remote_sensors_monitoring">IoT • Sensores Remotos • Monitoramento</string>
+
+    <!-- Sensor details -->
+    <string name="textViewSensorNome">Nome do Sensor</string>
+    <string name="editTextSensorNome">Digite o nome do sensor</string>
+    <string name="textViewSensorIdentificador">ID do Sensor</string>
+    <string name="editTextSensorIdentificador">Digite o ID do sensor</string>
+    <string name="textViewSensorClasse">Tipo de Sensor</string>
+    <string name="tipo_valor">Tipo: </string>
+
+    <!-- Sensor types -->
+    <string name="acelerometro">Acelerômetro</string>
+    <string name="giroscopio">Giroscópio</string>
+    <string name="magnetometro">Magnetômetro</string>
+    <string name="sensor_luz_ambiente">Sensor de Luz Ambiente</string>
+    <string name="sensor_proximidade">Sensor de Proximidade</string>
+    <string name="barometro">Barômetro</string>
+    <string name="contador_passos">Contador de Passos</string>
+    <string name="temperatura_ambiente">Temperatura Ambiente</string>
+    <string name="sensor_umidade">Sensor de Umidade</string>
+    <string name="sensor_qualidade_ar">Sensor de Qualidade do Ar</string>
+    <string name="o_spinner_nao_possui_valores">O seletor não possui valores — avise o desenvolvedor!</string>
+
+    <!-- Usage types -->
+    <string name="textViewSensorUso">Escolha o uso do sensor</string>
+    <string name="radioButtonSensorUsoIndustrial">Industrial</string>
+    <string name="radioButtonSensorUsoResidencial">Residencial</string>
+    <string name="radioButtonSensorUsoAutomotivo">Automotivo</string>
+    <string name="radioButtonSensorUsoCidadesInteligentes">Cidades Inteligentes</string>
+    <string name="radioButtonUsoSensorEnergia">Setor Energético</string>
+    <string name="radioButtonSensorVarejo">Varejo</string>
+    <string name="radioButtonUsoAgricultura">Agricultura</string>
+    <string name="radioButtonUsoSensorOutros">Outro</string>
+    <string name="radioButtonSensorUsoOutros">Outro</string>
+
+    <!-- Status -->
+    <string name="checkBoxIsActive">Sensor está Ativo</string>
+    <string name="sensor_status">Estado do sensor:</string>
+    <string name="active">Ativo</string>
+    <string name="inactive">Inativo</string>
+    <string name="possui_modulo">Sensor Ativo</string>
+    <string name="nao_possui_modulo">Sensor Inativo</string>
+    <string name="checkBoxSensorStatus">Estado do sensor</string>
+
+    <!-- Buttons & Actions -->
+    <string name="buttonSensorLimpar">Limpar</string>
+    <string name="buttonSensorSalvar">Salvar</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="desfazer">desfazer</string>
+    <string name="add">Adicionar Nota</string>
+
+    <!-- Messages -->
+    <string name="entradas_foram_apagadas">As entradas foram apagadas</string>
+    <string name="por_favor_adicionar_o_nome_do_sensor">Por favor, adicione o nome do sensor!</string>
+    <string name="por_favor_adicionar_o_identificador_do_sensor">Por favor, adicione o ID do sensor!</string>
+    <string name="por_favor_preencher_o_campo_de_uso_do_sensor">Por favor, preencha o campo de uso do sensor!</string>
+    <string name="nome_do_sensor">"Nome do Sensor: "</string>
+    <string name="identificador_do_sensor">"ID do Sensor: "</string>
+    <string name="uso_do_sensor">"Uso do Sensor: "</string>
+    <string name="sensor_com_modulo">"Sensor com Módulo: "</string>
+    <string name="classe_do_sensor">"Tipo de Sensor: "</string>
+    <string name="sensor_de_nome">Sensor nomeado \"</string>
+    <string name="as_configuracoes_voltaram_para_o_padrao_de_instalacao">As configurações voltaram para o padrão</string>
+    <string name="aviso">Aviso</string>
+    <string name="confirmacao">Confirmação</string>
+    <string name="deseja_apagar">Deseja realmente apagar?\n\"%1$s\"</string>
+    <string name="deseja_restaurar_padroes">Deseja restaurar os padrões?</string>
+    <string name="alteracao_realizada">Alteração realizada com sucesso</string>
+    <string name="sensor_excluido">O sensor foi excluído!</string>
+    <string name="error_ao_tentar_inserir">Erro ao tentar inserir!</string>
+    <string name="erro_ao_tentar_alterar">Erro ao tentar atualizar!</string>
+    <string name="erro_ao_tentar_excluir">Erro ao tentar excluir</string>
+    <string name="the_data_of_first_measure_cannot_be_empty">A data da primeira medida não pode ser vazia</string>
+    <string name="idade_do_sensor_alert">A idade do sensor deve ser entre 0 e 70 anos</string>
+    <string name="do_you_want_to_delete_this_note">Deseja apagar esta nota?</string>
+    <string name="the_text_cannot_be_empty">O texto não pode estar vazio</string>
+    <string name="there_was_a_error_trying_to_insert">Erro ao tentar salvar a nota</string>
+
+    <!-- Activity Titles & Menus -->
+    <string name="novo_sensor">Novo Sensor</string>
+    <string name="editar_sensor">Editar Sensor</string>
+    <string name="lista_de_sensores">Lista de Sensores</string>
+    <string name="sugerir_tipo_sensor">Sugerir Classe do Sensor</string>
+    <string name="menu_item_editar">Editar</string>
+    <string name="menu_item_excluir">Excluir</string>
+    <string name="monitoramento_de_sensores">Monitoramento de Sensores</string>
+    <string name="ordenacao">Ordenação</string>
+    <string name="restaurar_padroes">Restaurar Padrões</string>
+    <string name="search_sensors">Buscar Sensores</string>
+    <string name="annotations">Notas</string>
+    <string name="new_note">Nova Nota</string>
+    <string name="openAnnotations">Abrir Notas</string>
+    <string name="annotations_from_sensor">Notas para %1$s</string>
+    <string name="enter_annotation">Digite a anotação</string>
+    <string name="update_the_text">Editar texto</string>
+
+    <!-- About -->
+    <string name="sobre">Sobre o App</string>
+    <string name="sobre_descricao">Projeto do Curso de Desenvolvimento Android</string>
+    <string name="sobre_curso">Especialização em Tecnologias Java</string>
+    <string name="sobre_app">O app visa fornecer uma ferramenta inicial de estudo e monitoramento de sensores para Android e IoT. Ele permite que os usuários registrem sensores e suas especificações técnicas.</string>
+    <string name="sobre_autoria">Autor: <a href="https://lattes.cnpq.br/2528547933345822">Tiago Horaguchi Rodrigues</a></string>
+    <string name="logo_da_utfpr">Logo da UTFPR</string>
+    <string name="nenhum_aplicativo_para_abrir_paginas_web">Nenhum app disponível para abrir páginas web</string>
+    <string name="nenhum_aplicativo_para_enviar_e_mail">Nenhum app disponível para enviar e-mail</string>
+    <string name="contato_pelo_aplicativo_estudo_e_monitoramento_de_sensores">Contato via App de Monitoramento de Sensores</string>
+    <string name="nome_utfpr_por_extenso">UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ</string>
+
+    <!-- Others -->
+    <string name="checkBoxSensorModulo">checkBoxSensorStatus</string>
+    <string name="date_first_measure">Data da primeira medida</string>
+    <string name="value_date_first_measure">Clique aqui para escolher a data</string>
+    <string name="primeira_medicao">Data da primeira medida</string>
+</resources>

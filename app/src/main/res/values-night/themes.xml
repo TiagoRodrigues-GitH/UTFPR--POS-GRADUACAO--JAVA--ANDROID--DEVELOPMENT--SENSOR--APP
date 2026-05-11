@@ -1,0 +1,75 @@
+<resources>
+
+    <style name="Theme.ThemeStylesIcons" parent="Theme.Material3.Dark">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/amarelo_escuro</item>
+        <item name="colorPrimary">@color/amarelo_escuro</item>
+        <item name="colorPrimaryVariant">@color/amarelo</item>
+        <item name="colorOnPrimary">@color/preto</item>
+        <item name="colorSecondary">@color/amarelo_escuro</item>
+        <item name="colorSecondaryVariant">@color/amarelo</item>
+        <item name="colorOnSecondary">@color/branco</item>
+        <item name="colorSurface">@color/preto</item>
+        <item name="colorOnSurface">@color/branco</item>
+        <item name="android:textColorLink">@color/amarelo</item>
+        <item name="actionModeBackground">@color/amarelo_escuro</item>
+        <item name="actionBarTheme">@style/TemaBarraAcoes</item>
+
+        <!-- AlertDialog -->
+        <item name="materialAlertDialogTheme">@style/MeuAlertDialog</item>
+
+        <!-- Snackbar -->
+        <item name="snackbarStyle">@style/MeuSnackbar</item>
+        <item name="snackbarButtonStyle">@style/MeuSnackbarBotao</item>
+    </style>
+
+    <!-- Action Bar -->
+    <style name="TemaBarraAcoes" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="android:textColorPrimary">@color/amarelo</item>
+        <item name="colorControlNormal">@color/amarelo_escuro</item>
+    </style>
+
+    <!-- AlertDialog: dark background, yellow/green buttons -->
+    <style name="MeuAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorSurface">@color/preto</item>
+        <item name="colorOnSurface">@color/branco</item>
+        <item name="colorPrimary">@color/amarelo_escuro</item>
+        <item name="colorOnPrimary">@color/branco</item>
+        <item name="buttonBarPositiveButtonStyle">@style/MeuAlertDialog.BotaoPositivo</item>
+        <item name="buttonBarNegativeButtonStyle">@style/MeuAlertDialog.BotaoNegativo</item>
+    </style>
+
+    <style name="MeuAlertDialog.BotaoPositivo" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/amarelo_escuro</item>
+        <item name="android:textColor">@color/branco</item>
+    </style>
+
+    <style name="MeuAlertDialog.BotaoNegativo" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/amarelo</item>
+    </style>
+
+    <!-- Snackbar -->
+    <style name="MeuSnackbar" parent="Widget.Material3.Snackbar">
+        <item name="android:background">@color/preto</item>
+        <item name="android:textColor">@color/branco</item>
+    </style>
+
+    <style name="MeuSnackbarBotao" parent="Widget.Material3.Button.TextButton.Snackbar">
+        <item name="android:textColor">@color/amarelo</item>
+    </style>
+
+
+    <style name = "SpinnerDatePickerDialogTheme" parent ="ThemeOverlay.Material3.Dark">
+
+        <item name ="android:datePickerStyle">@style/SpinnerDatePickerStyle</item>
+        <item name="android:windowIsFloating">true</item>
+
+    </style>
+
+
+    <style name ="SpinnerDatePickerStyle" parent= "android:Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+</resources>

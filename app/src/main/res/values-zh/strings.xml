@@ -1,0 +1,122 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">传感器研究与监测</string>
+    <string name="iot_remote_sensors_monitoring">物联网 • 远程传感器 • 监测</string>
+
+    <!-- Sensor details -->
+    <string name="textViewSensorNome">传感器名称</string>
+    <string name="editTextSensorNome">输入传感器名称</string>
+    <string name="textViewSensorIdentificador">传感器 ID</string>
+    <string name="editTextSensorIdentificador">输入传感器 ID</string>
+    <string name="textViewSensorClasse">传感器类型</string>
+    <string name="tipo_valor">类型: </string>
+
+    <!-- Sensor types -->
+    <string name="acelerometro">加速度计</string>
+    <string name="giroscopio">陀螺仪</string>
+    <string name="magnetometro">磁力计</string>
+    <string name="sensor_luz_ambiente">环境光传感器</string>
+    <string name="sensor_proximidade">距离传感器</string>
+    <string name="barometro">气压计</string>
+    <string name="contador_passos">步数计数器</string>
+    <string name="temperatura_ambiente">环境温度</string>
+    <string name="sensor_umidade">湿度传感器</string>
+    <string name="sensor_qualidade_ar">空气质量传感器</string>
+    <string name="o_spinner_nao_possui_valores">选择器没有值 — 请通知开发人员！</string>
+
+    <!-- Usage types -->
+    <string name="textViewSensorUso">选择传感器用途</string>
+    <string name="radioButtonSensorUsoIndustrial">工业</string>
+    <string name="radioButtonSensorUsoResidencial">住宅</string>
+    <string name="radioButtonSensorUsoAutomotivo">汽车</string>
+    <string name="radioButtonSensorUsoCidadesInteligentes">智能城市</string>
+    <string name="radioButtonUsoSensorEnergia">能源部门</string>
+    <string name="radioButtonSensorVarejo">零售</string>
+    <string name="radioButtonUsoAgricultura">农业</string>
+    <string name="radioButtonUsoSensorOutros">其他</string>
+    <string name="radioButtonSensorUsoOutros">其他</string>
+
+    <!-- Status -->
+    <string name="checkBoxIsActive">传感器已激活</string>
+    <string name="sensor_status">传感器状态:</string>
+    <string name="active">激活</string>
+    <string name="inactive">未激活</string>
+    <string name="possui_modulo">传感器激活</string>
+    <string name="nao_possui_modulo">传感器未激活</string>
+    <string name="checkBoxSensorStatus">传感器状态</string>
+
+    <!-- Buttons & Actions -->
+    <string name="buttonSensorLimpar">清除</string>
+    <string name="buttonSensorSalvar">保存</string>
+    <string name="adicionar">添加</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="sim">是</string>
+    <string name="nao">否</string>
+    <string name="desfazer">撤销</string>
+    <string name="add">添加备注</string>
+
+    <!-- Messages -->
+    <string name="entradas_foram_apagadas">条目已清除</string>
+    <string name="por_favor_adicionar_o_nome_do_sensor">请添加传感器名称！</string>
+    <string name="por_favor_adicionar_o_identificador_do_sensor">请添加传感器 ID！</string>
+    <string name="por_favor_preencher_o_campo_de_uso_do_sensor">请填写传感器用途字段！</string>
+    <string name="nome_do_sensor">"传感器名称: "</string>
+    <string name="identificador_do_sensor">"传感器 ID: "</string>
+    <string name="uso_do_sensor">"传感器用途: "</string>
+    <string name="sensor_com_modulo">"配备模块的传感器: "</string>
+    <string name="classe_do_sensor">"传感器类型: "</string>
+    <string name="sensor_de_nome">名为 \" 的传感器</string>
+    <string name="as_configuracoes_voltaram_para_o_padrao_de_instalacao">设置已恢复默认</string>
+    <string name="aviso">警告</string>
+    <string name="confirmacao">确认</string>
+    <string name="deseja_apagar">确定要删除吗？\n\"%1$s\"</string>
+    <string name="deseja_restaurar_padroes">要恢复默认设置吗？</string>
+    <string name="alteracao_realizada">数据更新完成</string>
+    <string name="sensor_excluido">传感器已删除！</string>
+    <string name="error_ao_tentar_inserir">插入时出错！</string>
+    <string name="erro_ao_tentar_alterar">更新时出错！</string>
+    <string name="erro_ao_tentar_excluir">删除时出错</string>
+    <string name="the_data_of_first_measure_cannot_be_empty">首次测量日期不能为空</string>
+    <string name="idade_do_sensor_alert">传感器年龄应在 0 到 70 岁之间</string>
+    <string name="do_you_want_to_delete_this_note">要删除此备注吗？</string>
+    <string name="the_text_cannot_be_empty">文本不能为空</string>
+    <string name="there_was_a_error_trying_to_insert">保存备注时出错</string>
+
+    <!-- Activity Titles & Menus -->
+    <string name="novo_sensor">新传感器</string>
+    <string name="editar_sensor">编辑传感器</string>
+    <string name="lista_de_sensores">传感器列表</string>
+    <string name="sugerir_tipo_sensor">建议传感器类别</string>
+    <string name="menu_item_editar">编辑</string>
+    <string name="menu_item_excluir">删除</string>
+    <string name="monitoramento_de_sensores">传感器监测</string>
+    <string name="ordenacao">排序</string>
+    <string name="restaurar_padroes">恢复默认</string>
+    <string name="search_sensors">搜索传感器</string>
+    <string name="annotations">备注</string>
+    <string name="new_note">新备注</string>
+    <string name="openAnnotations">打开备注</string>
+    <string name="annotations_from_sensor">%1$s 的备注</string>
+    <string name="enter_annotation">输入备注</string>
+    <string name="update_the_text">编辑文本</string>
+
+    <!-- About -->
+    <string name="sobre">关于应用</string>
+    <string name="sobre_descricao">Android 开发课程项目</string>
+    <string name="sobre_curso">Java 技术专业</string>
+    <string name="sobre_app">该应用旨在为 Android 和物联网传感器提供初步的学习和监测工具。它允许用户注册传感器及其技术规格。</string>
+    <string name="sobre_autoria">作者: <a href="https://lattes.cnpq.br/2528547933345822">Tiago Horaguchi Rodrigues</a></string>
+    <string name="logo_da_utfpr">UTFPR 标志</string>
+    <string name="nenhum_aplicativo_para_abrir_paginas_web">没有可用于打开网页的应用</string>
+    <string name="nenhum_aplicativo_para_enviar_e_mail">没有可用于发送电子邮件的应用</string>
+    <string name="contato_pelo_aplicativo_estudo_e_monitoramento_de_sensores">通过传感器监测应用联系</string>
+    <string name="nome_utfpr_por_extenso">巴拉那联邦理工大学</string>
+
+    <!-- Others -->
+    <string name="checkBoxSensorModulo">checkBoxSensorStatus</string>
+    <string name="date_first_measure">首次测量日期</string>
+    <string name="value_date_first_measure">点击选择日期</string>
+    <string name="primeira_medicao">首次测量日期</string>
+</resources>

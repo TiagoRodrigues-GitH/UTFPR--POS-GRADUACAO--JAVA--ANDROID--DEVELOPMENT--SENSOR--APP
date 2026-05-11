@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Layout para cadastro/edição de sensor
+    - DatePicker usa tema SpinnerDatePickerDialogTheme (API 24+)
+    - TextViews sem hardcoded strings
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Nome do Sensor -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensor_name"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextSensorNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_sensor_name"
+            android:inputType="text" />
+
+        <!-- Sensor ID -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensor_id"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextSensorId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_sensor_id"
+            android:inputType="text" />
+
+        <!-- Data Primeira Medição -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_measure_date"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextDataPrimeiraMedicao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_date"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <!-- Status -->
+        <CheckBox
+            android:id="@+id/checkBoxSensorStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensor_active"
+            android:layout_marginTop="16dp" />
+
+        <!-- Tipo/Classe -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensor_type"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinnerSensorClasse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/sensoresTypo" />
+
+        <!-- Uso do Sensor -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensor_usage"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupSensorUso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonSensorUsoIndustrial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonSensorUsoIndustrial" />
+
+            <RadioButton
+                android:id="@+id/radioButtonUsoResidencial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonSensorUsoResidencial" />
+
+            <RadioButton
+                android:id="@+id/radioButtonUsoAutomotivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonSensorUsoAutomotivo" />
+
+            <RadioButton
+                android:id="@+id/radioButtonCidadesInteligentes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonSensorUsoCidadesInteligentes" />
+
+            <RadioButton
+                android:id="@+id/radioButtonUsoSetorEnergia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonUsoSensorEnergia" />
+
+            <RadioButton
+                android:id="@+id/radioButtonSensorUsoVarejo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonSensorVarejo" />
+
+            <RadioButton
+                android:id="@+id/radioButtonSensorUsoAgricultura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonUsoAgricultura" />
+
+            <RadioButton
+                android:id="@+id/radioButtonSensorUsoOutros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonSensorUsoOutros" />
+        </RadioGroup>
+
+        <!-- Botão Anotações -->
+        <Button
+            android:id="@+id/buttonAnnotations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/annotations"
+            android:layout_marginTop="16dp"
+            android:onClick="openAnnotation" />
+
+    </LinearLayout>
+</ScrollView>

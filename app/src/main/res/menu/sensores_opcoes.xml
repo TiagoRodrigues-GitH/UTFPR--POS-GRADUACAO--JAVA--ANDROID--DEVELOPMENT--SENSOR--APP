@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemSearch"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search_sensors"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuItemAdicionar"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/adicionar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuItemOrdenacao"
+        android:checkable="false"
+        android:icon="@drawable/ic_action_ascending_order"
+        android:title="@string/ordenacao"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuExport"
+        android:title="Export Data"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menuExportPdf"
+                android:title="Export to PDF" />
+            <item
+                android:id="@+id/menuExportCsv"
+                android:title="Export to CSV" />
+            <item
+                android:id="@+id/menuExportJson"
+                android:title="Export to JSON" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuItemSobre"
+        android:title="@string/sobre" />
+
+    <item
+        android:id="@+id/menuItemRestaurar"
+        android:title="@string/restaurar_padroes" />
+</menu>

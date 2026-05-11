@@ -1,0 +1,122 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Étude et surveillance des capteurs</string>
+    <string name="iot_remote_sensors_monitoring">IoT • Capteurs à distance • Surveillance</string>
+
+    <!-- Sensor details -->
+    <string name="textViewSensorNome">Nom du capteur</string>
+    <string name="editTextSensorNome">Entrez le nom du capteur</string>
+    <string name="textViewSensorIdentificador">ID du capteur</string>
+    <string name="editTextSensorIdentificador">Entrez l\'ID du capteur</string>
+    <string name="textViewSensorClasse">Type de capteur</string>
+    <string name="tipo_valor">Type: </string>
+
+    <!-- Sensor types -->
+    <string name="acelerometro">Accéléromètre</string>
+    <string name="giroscopio">Gyroscope</string>
+    <string name="magnetometro">Magnétomètre</string>
+    <string name="sensor_luz_ambiente">Capteur de lumière ambiante</string>
+    <string name="sensor_proximidade">Capteur de proximité</string>
+    <string name="barometro">Baromètre</string>
+    <string name="contador_passos">Compteur de pas</string>
+    <string name="temperatura_ambiente">Température ambiante</string>
+    <string name="sensor_umidade">Capteur d\'humidité</string>
+    <string name="sensor_qualidade_ar">Capteur de qualité de l\'air</string>
+    <string name="o_spinner_nao_possui_valores">Le sélecteur n\'a pas de valeurs — informez le développeur !</string>
+
+    <!-- Usage types -->
+    <string name="textViewSensorUso">Choisissez l\'utilisation du capteur</string>
+    <string name="radioButtonSensorUsoIndustrial">Industriel</string>
+    <string name="radioButtonSensorUsoResidencial">Résidentiel</string>
+    <string name="radioButtonSensorUsoAutomotivo">Automobile</string>
+    <string name="radioButtonSensorUsoCidadesInteligentes">Villes intelligentes</string>
+    <string name="radioButtonUsoSensorEnergia">Secteur de l\'énergie</string>
+    <string name="radioButtonSensorVarejo">Commerce de détail</string>
+    <string name="radioButtonUsoAgricultura">Agriculture</string>
+    <string name="radioButtonUsoSensorOutros">Autre</string>
+    <string name="radioButtonSensorUsoOutros">Autre</string>
+
+    <!-- Status -->
+    <string name="checkBoxIsActive">Le capteur est actif</string>
+    <string name="sensor_status">État du capteur :</string>
+    <string name="active">Actif</string>
+    <string name="inactive">Inactif</string>
+    <string name="possui_modulo">Capteur actif</string>
+    <string name="nao_possui_modulo">Capteur inactif</string>
+    <string name="checkBoxSensorStatus">État du capteur</string>
+
+    <!-- Buttons & Actions -->
+    <string name="buttonSensorLimpar">Effacer</string>
+    <string name="buttonSensorSalvar">Enregistrer</string>
+    <string name="adicionar">Ajouter</string>
+    <string name="save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="sim">Oui</string>
+    <string name="nao">Non</string>
+    <string name="desfazer">annuler</string>
+    <string name="add">Ajouter une note</string>
+
+    <!-- Messages -->
+    <string name="entradas_foram_apagadas">Les entrées ont été effacées</string>
+    <string name="por_favor_adicionar_o_nome_do_sensor">Veuillez ajouter le nom du capteur !</string>
+    <string name="por_favor_adicionar_o_identificador_do_sensor">Veuillez ajouter l\'identifiant du capteur !</string>
+    <string name="por_favor_preencher_o_campo_de_uso_do_sensor">Veuillez remplir le champ d\'utilisation du capteur !</string>
+    <string name="nome_do_sensor">"Nom du capteur : "</string>
+    <string name="identificador_do_sensor">"ID du capteur : "</string>
+    <string name="uso_do_sensor">"Utilisation du capteur : "</string>
+    <string name="sensor_com_modulo">"Capteur avec module : "</string>
+    <string name="classe_do_sensor">"Type de capteur : "</string>
+    <string name="sensor_de_nome">Capteur nommé \"</string>
+    <string name="as_configuracoes_voltaram_para_o_padrao_de_instalacao">Les paramètres ont été restaurés par défaut</string>
+    <string name="aviso">Avertissement</string>
+    <string name="confirmacao">Confirmation</string>
+    <string name="deseja_apagar">Voulez-vous vraiment supprimer ?\n\"%1$s\"</string>
+    <string name="deseja_restaurar_padroes">Voulez-vous restaurer les paramètres par défaut ?</string>
+    <string name="alteracao_realizada">Mise à jour des données effectuée</string>
+    <string name="sensor_excluido">Le capteur a été supprimé !</string>
+    <string name="error_ao_tentar_inserir">Erreur lors de la tentative d\'insertion !</string>
+    <string name="erro_ao_tentar_alterar">Erreur lors de la tentative de mise à jour !</string>
+    <string name="erro_ao_tentar_excluir">Erreur lors de la tentative de suppression</string>
+    <string name="the_data_of_first_measure_cannot_be_empty">La date de la première mesure ne peut pas être vide</string>
+    <string name="idade_do_sensor_alert">L\'âge du capteur doit être compris entre 0 et 70 ans</string>
+    <string name="do_you_want_to_delete_this_note">Voulez-vous supprimer cette note ?</string>
+    <string name="the_text_cannot_be_empty">Le texte ne peut pas être vide</string>
+    <string name="there_was_a_error_trying_to_insert">Erreur lors de la tentative d\'enregistrement de la note</string>
+
+    <!-- Activity Titles & Menus -->
+    <string name="novo_sensor">Nouveau capteur</string>
+    <string name="editar_sensor">Modifier le capteur</string>
+    <string name="lista_de_sensores">Liste des capteurs</string>
+    <string name="sugerir_tipo_sensor">Suggérer la classe du capteur</string>
+    <string name="menu_item_editar">Modifier</string>
+    <string name="menu_item_excluir">Supprimer</string>
+    <string name="monitoramento_de_sensores">Surveillance des capteurs</string>
+    <string name="ordenacao">Tri</string>
+    <string name="restaurar_padroes">Restaurer les paramètres par défaut</string>
+    <string name="search_sensors">Rechercher des capteurs</string>
+    <string name="annotations">Notes</string>
+    <string name="new_note">Nouvelle note</string>
+    <string name="openAnnotations">Ouvrir les notes</string>
+    <string name="annotations_from_sensor">Notes pour %1$s</string>
+    <string name="enter_annotation">Entrez une annotation</string>
+    <string name="update_the_text">Modifier le texte</string>
+
+    <!-- About -->
+    <string name="sobre">À propos de l\'application</string>
+    <string name="sobre_descricao">Projet de cours de développement Android</string>
+    <string name="sobre_curso">Spécialisation en technologies Java</string>
+    <string name="sobre_app">L\'application vise à fournir un outil d\'étude et de surveillance initial pour les capteurs Android et IoT. Elle permet aux utilisateurs d\'enregistrer des capteurs et leurs spécifications techniques.</string>
+    <string name="sobre_autoria">Auteur : <a href="https://lattes.cnpq.br/2528547933345822">Tiago Horaguchi Rodrigues</a></string>
+    <string name="logo_da_utfpr">Logo de l\'UTFPR</string>
+    <string name="nenhum_aplicativo_para_abrir_paginas_web">Aucune application disponible pour ouvrir les pages Web</string>
+    <string name="nenhum_aplicativo_para_enviar_e_mail">Aucune application disponible pour envoyer des e-mails</string>
+    <string name="contato_pelo_aplicativo_estudo_e_monitoramento_de_sensores">Contact via l\'application de surveillance des capteurs</string>
+    <string name="nome_utfpr_por_extenso">UNIVERSITÉ TECHNOLOGIQUE FÉDÉRALE DU PARANÁ</string>
+
+    <!-- Others -->
+    <string name="checkBoxSensorModulo">checkBoxSensorStatus</string>
+    <string name="date_first_measure">Date de la première mesure</string>
+    <string name="value_date_first_measure">Cliquez pour choisir la date</string>
+    <string name="primeira_medicao">Date de la première mesure</string>
+</resources>

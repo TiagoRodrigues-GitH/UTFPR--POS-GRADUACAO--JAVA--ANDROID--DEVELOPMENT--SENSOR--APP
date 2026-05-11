@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sensoresTypo">
+            <item>@string/acelerometro</item>
+            <item>@string/giroscopio</item>
+            <item>@string/magnetometro</item>
+            <item>@string/sensor_luz_ambiente</item>
+            <item>@string/sensor_proximidade</item>
+            <item>@string/barometro</item>
+            <item>@string/contador_passos</item>
+            <item>@string/temperatura_ambiente</item>
+            <item>@string/sensor_umidade</item>
+            <item>@string/sensor_qualidade_ar</item>
+    </string-array>
+
+
+</resources>

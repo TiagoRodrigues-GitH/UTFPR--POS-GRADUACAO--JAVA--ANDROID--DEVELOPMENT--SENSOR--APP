@@ -1,0 +1,134 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 4,
+    "identityHash": "6f76a1ae3d52d4d15b5f7b6a55229a20",
+    "entities": [
+      {
+        "tableName": "Tabela de sensores",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `Nome do sensor` TEXT NOT NULL, `Id do sensor` TEXT, `Tipo do sensor` INTEGER NOT NULL, `Estado do sensor` TEXT, `Uso do sensor` INTEGER, `Data da primeira medição` INTEGER)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sensorName",
+            "columnName": "Nome do sensor",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sensorId",
+            "columnName": "Id do sensor",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "sensorType",
+            "columnName": "Tipo do sensor",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sensorStatus",
+            "columnName": "Estado do sensor",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "sensorUso",
+            "columnName": "Uso do sensor",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "dataPrimeiraMedicao",
+            "columnName": "Data da primeira medição",
+            "affinity": "INTEGER"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_Tabela de sensores_Nome do sensor",
+            "unique": false,
+            "columnNames": [
+              "Nome do sensor"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_Tabela de sensores_Nome do sensor` ON `${TABLE_NAME}` (`Nome do sensor`)"
+          }
+        ]
+      },
+      {
+        "tableName": "Annotation",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `idSensor` INTEGER NOT NULL, `createdAt` INTEGER NOT NULL, `text` TEXT NOT NULL, FOREIGN KEY(`idSensor`) REFERENCES `Tabela de sensores`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "idSensor",
+            "columnName": "idSensor",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text",
+            "columnName": "text",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_Annotation_createdAt",
+            "unique": false,
+            "columnNames": [
+              "createdAt"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_Annotation_createdAt` ON `${TABLE_NAME}` (`createdAt`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "Tabela de sensores",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "idSensor"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '6f76a1ae3d52d4d15b5f7b6a55229a20')"
+    ]
+  }
+}

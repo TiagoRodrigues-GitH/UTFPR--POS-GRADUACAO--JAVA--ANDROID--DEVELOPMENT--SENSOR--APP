@@ -1,6 +1,7 @@
 # SensorHub
 
-**Aplicativo Android para Coleta e Monitoramento de Dados de Sensores em Campo**
+Aplicativo Android 
+para Coleta e Monitoramento de Dados de Sensores em Campo
 <img width="282" height="217" alt="Captura de tela 2026-05-11 142029" src="https://github.com/user-attachments/assets/a6f5f08b-b312-4e7f-b793-2b41dee85df3" />
 ---
 

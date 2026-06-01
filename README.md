@@ -54,14 +54,6 @@ The app integrates three main data capture modules:
 ### 1️⃣ IoT Sensors
 - Management and data collection from external IoT sensors
 
----
-
-## 🚀 Project Status
-
-**🟢 Under active development**
-
-- ✅ Phases 1–5 complete (Entities, DAOs, Database, Repositories, Use Cases, Hardware Layer, Navigation and Shared ViewModels)
-- 🔄 Phases 6–7: Utilize IoT sensors and receive real-time data
 
 ---
 

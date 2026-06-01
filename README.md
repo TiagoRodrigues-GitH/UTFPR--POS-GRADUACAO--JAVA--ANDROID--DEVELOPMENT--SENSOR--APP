@@ -14,9 +14,13 @@ Key Features
 SensorHub/
 
    ├── data/           # Data layer (Entities, DAOs, Database, Repositories)
+   
    ├── domain/         # Business logic (Use Cases)
+   
    ├── hardware/       # Physical sensor abstraction
+   
    ├── ui/             # Presentation layer (Activities, ViewModels, Adapters)
+   
    └── util/           # Utility classes
 
 Category	Technology
